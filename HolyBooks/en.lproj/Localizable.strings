@@ -1,0 +1,92 @@
+/* 
+  Localizable.strings
+  HolyBooks
+
+  Created by Roman Developer on 10/27/15.
+  Copyright (c) 2015 Iron Water Studio. All rights reserved.
+*/
+
+/* Main menu */
+"MainMenu.Library" = "Library";
+"MainMenu.MyBooks" = "My books";
+"MainMenu.About" = "About";
+"MainMenu.Authors" = "Authors";
+"MainMenu.Search.Placeholder" = "Search";
+"MainMenu.Set" = "Set";
+
+/* Library */
+"Library.Title" = "Library";
+"Library.Language" = "Language";
+
+/* My books */
+"MyBooks.Title" = "My books";
+"MyBooks.Edit" = "Edit";
+"MyBooks.Done" = "Done";
+"MyBooks.Empty1" = "You don't have books";
+"MyBooks.Empty2" = "You can add them from library";
+
+/* Authors */
+"Authors.Title" = "Authors";
+"Authors.BooksQuantity.1" = "%ld book";
+"Authors.BooksQuantity.2-4" = "%ld books";
+"Authors.BooksQuantity.Many" = "%ld books";
+"AuthorDetails.BtnBooks.Title" = "Books";
+"AuthorDetails.BtnAboutAuthor.Title" = "About author";
+
+/* Horizontal book list */
+"HorizontalBookList.Recommendation" = "Recommendation";
+"HorizontalBookList.Author" = "Author";
+"HorizontalBookList.MyLatest" = "Latest";
+
+/* Vertical book list */
+"VerticalBookList.Download" = "DOWNLOAD";
+"VerticalBookList.DownloadWithAudio" = "DOWNLOAD WITH AUDIO";
+"VerticalBookList.Downloading" = "DOWNLOADING";
+"VerticalBookList.Read" = "READ";
+
+/* Select language dialog */
+"SelectLanguage.Russian" = "Russian books";
+"SelectLanguage.English" = "English books";
+"SelectLanguage.Description" = "Select book languages to show in library";
+"PageTransition.Description" = "Select page transition effect";
+"PageTransition.Curl" = "Curl effect";
+"PageTransition.Slide" = "Slide effect";
+"SelectLanguage.LastLanguageSelected" = "At least one language should be selected in the application to display content.";
+
+/* Download version selection */
+"SelectDownload.DownloadVersion" = "Download version";
+"SelectDownload.Cancel" = "Cancel";
+"SelectDownload.Text" = "Text";
+"SelectDownload.TextAndAudio" = "Text and audio";
+"SelectDownload.Mb" = "Mb";"SelectDownload.TextAndAudio" = "Text and audio";
+
+/* Book Reader */
+"BookReader.Close" = "Close";
+"BookContents.Title" = "Table of Contents";
+"BookReader.PageNumberFormat" = "Page %ld of %ld";
+"SearchResult.StatusTitle" = "Text";
+"SearchResult.StatusSearching" = "Searching...";
+"SearchResult.StatusFormat.1" = "%ld result";
+"SearchResult.StatusFormat.2-4" = "%ld results";
+"SearchResult.StatusFormat.Many" = "%ld results";
+"SearchResult.ChapterIndexFormat" = "Chapter %d.";
+"SearchResult.ChapterTitleFormat" = "%@";
+"SearchResult.PageIndexFormat" = "Page %d";
+"BookReader.TransitionStyle.Flipping" = "Flipping";
+"BookReader.TransitionStyle.Shift" = "Shift";
+"ReaderSettings.Fonts.Title" = "Fonts";
+"ReaderSettings.TransitionStyle.Title" = "Transition to the next page";
+"Copy" = "Copy";
+"Share" = "Share";
+"ShareDialog.Title" = "Share quote";
+"ShareDialog.Option.Text" = "Text";
+"ShareDialog.Option.Image" = "Image";
+"ShareDialog.Option.Cancel" = "Cancel";
+"BookReader.QuoteCopied" = "Quote copied to clipboard.";
+
+/* Sets */
+"Sets.Title" = "Sets";
+
+/* About */
+"About.Title" = "About";
+"About.Text" = "Vedareader App is a new and convenient way for learning spiritual Vedic literature on your iPhone or iPad.\n\nYou may as well listen to audio books, use search box and make your own list of literature.\n\nThis is the first App in the World which contains the Greatest and rare Vaishnava Master’s heritage and ancient Indian’s scriptures (Bhagavad-Gita etc.)\n\nIt’s planned to be added more books, articles and magazines in the near future.";

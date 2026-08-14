@@ -1,0 +1,302 @@
+{
+	"--comment--" : "Only banners are bound to device localization. The rest is user's choice bound to languages.",
+	
+	"languages":
+	[
+		{
+			"id":1,
+			"name":"English"
+		},
+		{
+			"id":2,
+			"name":"Русский"
+		},
+		{
+			"id":3,
+			"name":"हिन्दी"
+		}
+	],
+	"banners":
+	[
+		{
+			"id":1,
+			"imageEn":"banner_eng_01.png",
+			"imageRu":"banner_rus_01.png",
+			"bookID":1
+		},
+		{
+			"id":2,
+			"imageEn":"banner_eng_02.png",
+			"imageRu":"banner_rus_02.png",
+			"siteURL":"http://www.religion.com"
+		},
+		{
+			"id":3,
+			"imageEn":"banner_eng_03.png",
+			"imageRu":"banner_rus_03.png",
+			"siteURL":"http://www.religion.com"
+		},
+		{
+			"id":4,
+			"imageEn":"banner_eng_04.png",
+			"imageRu":"banner_rus_04.png",
+			"siteURL":"http://www.religion.com"
+		},
+		{
+			"id":5,
+			"imageEn":"banner_eng_05.png",
+			"imageRu":"banner_rus_05.png",
+			"siteURL":"http://www.religion.com"
+		}
+	],
+	"recommendations":
+	[
+		{
+			"id":1,
+			"bookID":1
+		},
+		{
+			"id":2,
+			"bookID":2
+		},
+		{
+			"id":3,
+			"bookID":3
+		},
+		{
+			"id":4,
+			"bookID":4
+		}
+	],
+	"authors":
+	[
+		{
+			"id":1,
+			"language":2,
+			"name":"Шрила Шридхар Махарадж",
+			"image":"author_2.png",
+	        "desc":"«Брахма-самхита» — один из древнейших священных текстов, представляющий теистический взгляд на мироздание. Несмотря на сложность и философскую глубину этой небольшой книги, она признается своего рода азбукой. В ней раскрываются основные положения вайшнавской философии и в сжатой форме представлено духовное знание Шри Чайтаньи Махапрабху.\nЗначительной книгу делают подробные комментарии к ее стихам вайшнавского мыслителя начала XX века Шрилы Бхактивинода Тхакура. Еще одна уникальная черта этого издания состоит в том, что в его осуществлении принимало участие несколько вайшнавских миссий. Книга бесценна для тех, кто избрал путь преданности Богу и стремится следовать ему. Но она будет интересна и для ученых, философов и религиоведов, а также всех тех, кто находится в духовном поиске."
+	 
+		},
+		{
+			"id":2,
+			"language":1,
+			"name":"Srila B.R. Sridhar Maharaj",
+	 		"image":"author_2.png",
+			 "desc":"«Брахма-самхита» — один из древнейших священных текстов, представляющий теистический взгляд на мироздание. Несмотря на сложность и философскую глубину этой небольшой книги, она признается своего рода азбукой. В ней раскрываются основные положения вайшнавской философии и в сжатой форме представлено духовное знание Шри Чайтаньи Махапрабху.\nЗначительной книгу делают подробные комментарии к ее стихам вайшнавского мыслителя начала XX века Шрилы Бхактивинода Тхакура. Еще одна уникальная черта этого издания состоит в том, что в его осуществлении принимало участие несколько вайшнавских миссий. Книга бесценна для тех, кто избрал путь преданности Богу и стремится следовать ему. Но она будет интересна и для ученых, философов и религиоведов, а также всех тех, кто находится в духовном поиске."
+		}
+	],
+	"books":
+	[
+		{
+			"id":1,
+			"language":2,
+			"name":"Абсолютная гармония",
+			"authorID":1,
+			"image":"absolyutnaya_garmoniya1.jpg",
+			"desc":"Книга содержит выдержки из других книг и фрагменты бесед основателя-президента-ачарьи Шри Чайтанья Сарасват Матха Шрилы Бхакти Ракшака Шридхара Дев-Госвами Махараджа и составлена в честь юбилея Его Святейшества по милостивому указанию его преемника севаите-президента-ачарьи Шрилы Бхакти Сундара Говинды Дев-Госвами Махараджа. &quot;В этом бренном мире каждый из нас вынужден страдать. Истинное освобождение способны даровать лишь великие души, подлинно соприкасающиеся с вечной духовной реальностью. Раскрыть некоторые тайны этой реальности поможет новая книга «Внутренняя исполненность».",
+			"files":
+			[
+				{
+					"type":0,
+					"name":"absolute_harmony/absolyutnaya_garmoniya_shrila_shridkhar_makharadzh.epub",
+					"size": 123
+				},
+				{
+					"type":1,
+					"name":"absolute_harmony/absolyutnaya_garmoniya_shrila_shridkhar_makharadzh.epub",
+					"size": 4
+				}
+			]
+		},
+		{
+			 "id":2,
+			 "language":2,
+			 "name":"Богатство слуги божественного мира",
+			 "authorID":1,
+			 "image":"bogatstvo_slugi_bozhestvennogo_mira1.jpg",
+			 "desc":"Сборник бесед Шрилы Говинды Махараджа, посвященных различным аспектам преданного служения. В книге особенно подчеркивается необходимость безраздельного самопредания Богу, искреннего служения Гуру и вайшнавам, проповеди сознания Кришны.",
+			 "files":
+			 [
+				  {
+					  "type":0,
+					  "name":"bogatstvo_slugi_bozhestvennogo_mira/bogatstvo_slugi_bozhestvennogo_mira.epub",
+					  "size": 2
+				  },
+				  {
+					  "type":1,
+					  "name":"bogatstvo_slugi_bozhestvennogo_mira/bogatstvo_slugi_bozhestvennogo_mira.epub",
+					  "size": 4
+				  }
+			  ]
+		},
+		{
+			"id":3,
+			"language":2,
+			"name":"Божественное руководство",
+			"authorID":1,
+			"image":"bozhestvennoe_rukovodstvo1.jpg",
+			"desc":"Сборник бесед. Особенно выделяются лекции Шрилы Говинды Махараджа, прочитанные им во время паломничества в различные святые места (Навадвипа, Вриндаван и др). В этих лекциях раскрывается сокровенная эзотерическая природа дхамы (святого места), описываются деяния великих преданных, объясняется, как мы должны воспринимать святую дхаму. В книге так же содержатся ответы Шрилы Говинды Махараджа на вопросы, посвященные многим важным аспектам преданного служения и некоторым спорным страницам недавней вайшнавской истории.",
+			"files":
+			[
+				{
+					"type":0,
+					"name":"bozhestvennoe_rukovodstvo/bozhestvennoe_rukovodstvo.epub",
+					"size": 2
+				},
+				{
+					"type":1,
+					"name":"bozhestvennoe_rukovodstvo/bozhestvennoe_rukovodstvo.epub",
+					"size": 4
+				}
+			]
+		},
+		{
+			"id":4,
+			"language":2,
+			"name":"Божественный слуга",
+			"authorID":1,
+			"image":"bozhestvennyi_sluga1.jpg",
+			"desc":"Сборник бесед Шрилы Говинды Махараджа, посвященных различным аспектам преданного служения. В книге особенно подчеркивается необходимость безраздельного самопредания Богу, искреннего служения Гуру и вайшнавам, проповеди сознания Кришны.",
+			"files":
+			[
+				{
+					"type":0,
+					"name":"bozhestvennyi_sluga/bozhestvennyy_sluga.epub",
+					"size": 2
+				},
+				{
+					"type":1,
+					"name":"bozhestvennyi_sluga/bozhestvennyy_sluga.epub",
+					"size": 4
+				}
+			 ]
+		},
+		{
+			"id":5,
+			"language":2,
+			"name":"Бхагавад Гита Жемчужина мудрости Востока",
+			"authorID":1,
+			"image":"bkhagavad_gita_zhemchuzhina_mudrosti_vostoka.jpg",
+			"desc":"Бхагавад Гита - это азбука духовной жизни. В Бхагавад Гите изложена суть философии Вед и она является основополагающим Писанием духовности. Её можно также назвать «энциклопедией йоги». В ней раскрывается сущность учения о карме – законе сотворения судьбы и реинкарнации – принципах перевоплощения души. Согласно Гите, человек должен действовать бескорыстно, чтобы научиться жить ради служения высшей цели. Лев Толстой писал: «Я твердо верю в основной принцип Бхагавад Гиты, всегда стараюсь помнить его и руководствоваться им в своих действиях, а также говорить о нем тем, кто спрашивает мое мнение, и отражать его в своих сочинениях».",
+			"files":
+			[
+				{
+					"type":0,
+					"name":"bkhagavad_gita_zhemchuzhina_mudrosti_vostoka/bhagavad_gita_092.epub",
+					"size": 5
+				},
+				{
+					"type":1,
+					"name":"bkhagavad_gita_zhemchuzhina_mudrosti_vostoka/bhagavad_gita_092.epub",
+					"size": 10
+				}
+			]
+		},
+		{
+			"id":6,
+			"language":2,
+			"name":"Бхакти Ракшака-вани",
+			"authorID":1,
+			"image":"bhakti_rakshaka_vani1.jpg",
+			"desc":"Основной принцип любви — самопожертвование, но ради кого? И кто принимает его? Каждый должен жертвовать центру, а не тянуть энергию оттуда. «Умереть, чтобы жить». С таким духом нам следует объединиться и трудиться ради истинной любви и красоты. И красота победит во всем мире. Любовь также одержит победу. Мы пожертвуем всем, чтобы знамя Божественной Любви развевалось над миром, ибо частица этой Божественной Любви способна принести подлинный мир и распространить его повсюду.",
+			"files":
+			[
+				{
+					"type":0,
+					"name":"bhakti_rakshaka_vani/bhakti_rakshaka_vani.epub",
+					"size": 1
+				},
+				{
+					"type":1,
+					"name":"bhakti_rakshaka_vani/bhakti_rakshaka_vani.epub",
+					"size": 2
+				}
+			]
+		},
+		{
+			"id":7,
+			"language":1,
+			"name":"Revealed Truth",
+			"authorID":2,
+			"image":"rt.jpg",
+			"desc":"no description",
+			"files":
+			[
+				{
+					"type":0,
+					"name":"Revealed_Truth/Revealed_Truth.epub",
+					"size": 1
+				},
+				{
+					"type":1,
+					"name":"Revealed_Truth/Revealed_Truth.epub",
+					"size": 2
+				}
+			]
+		},
+		{
+			"id":8,
+			"language":1,
+			"name":"Sri Sri Prapanna-Jivanamritam",
+			"authorID":2,
+			"image":"pj.jpg",
+			"desc":"no description",
+			"files":
+			[
+				{
+					"type":0,
+					"name":"Sri_Sri_Prapanna-jivanamri/Sri_Sri_Prapanna-jivanamri.epub",
+					"size": 3
+				},
+				{
+					"type":1,
+					"name":"Sri_Sri_Prapanna-jivanamri/Sri_Sri_Prapanna-jivanamri.epub",
+					"size": 6
+				}
+			 ]
+		},
+		{
+			"id":9,
+			"language":1,
+			"name":"Home Comfort",
+			"authorID":2,
+			"image":"hc.jpg",
+			"desc":"no description",
+			"files":
+			[
+				{
+					"type":0,
+					"name":"Home_Comfort/Home_Comfort.epub",
+					"size": 1
+				},
+				{
+					"type":1,
+					"name":"Home_Comfort/Home_Comfort.epub",
+					"size": 2
+				}
+			 ]
+		},
+		{
+			"id":10,
+			"language":1,
+			"name":"Srimad Bhagavad Gita - Hidden Treasure of the Sweet Absolute (2ndEdition)",
+			"authorID":2,
+			"image":"gita.jpg",
+			"desc":"no description",
+			"files":
+			[
+				{
+					"type":0,
+					"name":"Srimad_Bhagavad-gita/Srimad_Bhagavad-gita.epub",
+					"size": 3
+				},
+				{
+					"type":1,
+					"name":"Srimad_Bhagavad-gita/Srimad_Bhagavad-gita.epub",
+					"size": 6
+				}
+			 ]
+		}
+	]
+}

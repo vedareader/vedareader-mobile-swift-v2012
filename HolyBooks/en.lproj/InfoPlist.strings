@@ -1,0 +1,9 @@
+/* 
+  InfoPlist.strings
+  HolyBooks
+
+  Created by Alexander Popov on 27/03/17.
+  Copyright © 2017 Iron Water Studio. All rights reserved.
+*/
+
+"NSPhotoLibraryUsageDescription" = "Please allow access to your gallery so we can use it in the application for different purposes (for example - sharing).";

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MyBooksViewController">
+            <connections>
+                <outlet property="colBooks" destination="Tz0-Hm-5sJ" id="RqM-IS-mBZ"/>
+                <outlet property="lblEmpty1" destination="lKP-84-ym5" id="WtZ-wY-td1"/>
+                <outlet property="lblEmpty2" destination="y6v-7a-9f1" id="HMY-Qo-8tf"/>
+                <outlet property="vEmpty" destination="I7b-pV-Y8l" id="wCs-jB-g0Q"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="I7b-pV-Y8l">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lKP-84-ym5">
+                            <rect key="frame" x="167.5" y="285" width="40" height="20"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                            <color key="textColor" red="0.60784313725490191" green="0.60784313725490191" blue="0.60784313725490191" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y6v-7a-9f1">
+                            <rect key="frame" x="169.5" y="310" width="36" height="17"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <color key="textColor" red="0.80000000000000004" green="0.80000000000000004" blue="0.80000000000000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="my_books_empty_state.png" translatesAutoresizingMaskIntoConstraints="NO" id="eY3-Pc-YLn">
+                            <rect key="frame" x="134.5" y="165" width="120" height="100"/>
+                        </imageView>
+                    </subviews>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstItem="lKP-84-ym5" firstAttribute="top" secondItem="eY3-Pc-YLn" secondAttribute="bottom" constant="20" id="6ys-B8-cmC"/>
+                        <constraint firstItem="lKP-84-ym5" firstAttribute="centerX" secondItem="I7b-pV-Y8l" secondAttribute="centerX" id="EzR-2b-V1d"/>
+                        <constraint firstItem="eY3-Pc-YLn" firstAttribute="centerX" secondItem="I7b-pV-Y8l" secondAttribute="centerX" constant="7" id="Gg6-HI-QUU"/>
+                        <constraint firstItem="y6v-7a-9f1" firstAttribute="top" secondItem="lKP-84-ym5" secondAttribute="bottom" constant="5" id="jbf-eg-sqM"/>
+                        <constraint firstItem="eY3-Pc-YLn" firstAttribute="top" secondItem="I7b-pV-Y8l" secondAttribute="top" constant="165" id="oKp-EX-3cT"/>
+                        <constraint firstItem="y6v-7a-9f1" firstAttribute="centerX" secondItem="I7b-pV-Y8l" secondAttribute="centerX" id="sSO-GV-51N"/>
+                    </constraints>
+                </view>
+                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="Tz0-Hm-5sJ">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
+                    <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="0.0" minimumInteritemSpacing="0.0" id="0ab-cm-u9f">
+                        <size key="itemSize" width="50" height="50"/>
+                        <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                        <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                        <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    </collectionViewFlowLayout>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="sYi-fh-HqR"/>
+                        <outlet property="delegate" destination="-1" id="gBB-eS-4hs"/>
+                    </connections>
+                </collectionView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="Tz0-Hm-5sJ" secondAttribute="trailing" id="4Eb-cY-c4p"/>
+                <constraint firstItem="I7b-pV-Y8l" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="7bd-CA-63r"/>
+                <constraint firstItem="I7b-pV-Y8l" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="EQU-SX-KMD"/>
+                <constraint firstAttribute="bottom" secondItem="I7b-pV-Y8l" secondAttribute="bottom" id="Ehb-dA-Lgb"/>
+                <constraint firstAttribute="trailing" secondItem="I7b-pV-Y8l" secondAttribute="trailing" id="EoC-zf-JTf"/>
+                <constraint firstAttribute="bottom" secondItem="Tz0-Hm-5sJ" secondAttribute="bottom" id="kRF-vm-tyw"/>
+                <constraint firstItem="Tz0-Hm-5sJ" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="pxb-vL-41f"/>
+                <constraint firstItem="Tz0-Hm-5sJ" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="rxk-QH-YWc"/>
+            </constraints>
+            <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" translucent="NO" prompted="NO"/>
+            <point key="canvasLocation" x="33" y="-457"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="my_books_empty_state.png" width="120" height="100"/>
+    </resources>
+</document>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<content>
+	<languages>
+		<language id="1" nameEn="English" nameRu="Английский" />
+		<language id="2" nameEn="Russian" nameRu="Русский" />
+	</languages>
+	<types>
+		<type id="1" nameEn="Text" nameRu="Текст" />
+		<type id="2" nameEn="Text and audio" nameRu="Текст и аудио" />
+	<types>
+	<banners>
+		<banner id="1" imageEn="banner1_en.jpg" imageRu="banner1_ru.jpg" bookID="1" />
+		<banner id="2" imageEn="banner2_en.jpg" imageRu="banner2_ru.jpg" siteURL="http://www.religion.com" />
+	</banners>
+	<recommendations>
+		<recommendation id="1" bookID="1" />
+		<recommendation id="2" bookID="2" />
+	</recommendations>
+	<authors>
+		<author id="1" nameEn="Bhakti Gosvami" nameRu="Бхакти Госвами" />
+		<author id="2" nameEn="John Wick" nameRu="Джон Вик" />
+	</authors>
+	<books>
+		<book id="1" nameEn="Sharangati" nameRu="Шарангати" authorID="1" imageEn="sharangati_en.jpg" imageRu="sharangati_ru.jpg">
+			<file type="1" language="1" name="sharangati/sharangati_en_text.epub" />
+			<file type="1" language="2" name="sharangati/sharangati_ru_text.epub" />
+			<file type="2" language="1" name="sharangati/sharangati_en_text_audio.epub" />
+			<file type="2" language="2" name="sharangati/sharangati_ru_text_audio.epub" />
+		</book>
+	</books>
+</content>

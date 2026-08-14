@@ -1,0 +1,92 @@
+/* 
+  Localizable.strings
+  HolyBooks
+
+  Created by Roman Developer on 10/27/15.
+  Copyright (c) 2015 Iron Water Studio. All rights reserved.
+*/
+
+/* Main menu */
+"MainMenu.Library" = "Библиотека";
+"MainMenu.MyBooks" = "Мои книги";
+"MainMenu.About" = "О приложении";
+"MainMenu.Authors" = "Авторы";
+"MainMenu.Search.Placeholder" = "Поиск";
+"MainMenu.Set" = "Подборки";
+
+/* Library */
+"Library.Title" = "Библиотека";
+"Library.Language" = "Язык";
+
+/* My books */
+"MyBooks.Title" = "Мои книги";
+"MyBooks.Edit" = "Правка";
+"MyBooks.Done" = "Готово";
+"MyBooks.Empty1" = "У вас нет книг";
+"MyBooks.Empty2" = "Добавляйте книги из библиотеки";
+
+/* Authors */
+"Authors.Title" = "Авторы";
+"Authors.BooksQuantity.1" = "%ld книга";
+"Authors.BooksQuantity.2-4" = "%ld книги";
+"Authors.BooksQuantity.Many" = "%ld книг";
+"AuthorDetails.BtnBooks.Title" = "Книги";
+"AuthorDetails.BtnAboutAuthor.Title" = "Об авторе";
+
+/* Horizontal book list */
+"HorizontalBookList.Recommendation" = "Рекомендуем";
+"HorizontalBookList.Author" = "Книги данного автора";
+"HorizontalBookList.MyLatest" = "Последние";
+
+/* Vertical book list */
+"VerticalBookList.Download" = "СКАЧАТЬ";
+"VerticalBookList.DownloadWithAudio" = "СКАЧАТЬ С АУДИО";
+"VerticalBookList.Downloading" = "ЗАГРУЗКА";
+"VerticalBookList.Read" = "ЧИТАТЬ";
+
+/* Select language dialog */
+"SelectLanguage.Russian" = "Книги на русском";
+"SelectLanguage.English" = "Книги на английском";
+"SelectLanguage.Description" = "Укажите языки книг, которые будут отображаться в библиотеке";
+"PageTransition.Description" = "Выберите стиль смены страницы";
+"PageTransition.Curl" = "Эффект перелистывания";
+"PageTransition.Slide" = "Эффект сдвига";
+"SelectLanguage.LastLanguageSelected" = "В приложении должен остаться как минимум один выбранный язык для просмотра контента.";
+
+/* Download version selection */
+"SelectDownload.DownloadVersion" = "Версии для скачивания";
+"SelectDownload.Cancel" = "Отмена";
+"SelectDownload.Text" = "Текст";
+"SelectDownload.TextAndAudio" = "Текст и аудио";
+"SelectDownload.Mb" = "Мб";
+
+/* Book Reader */
+"BookReader.Close" = "Закрыть";
+"BookContents.Title" = "Оглавление";
+"BookReader.PageNumberFormat" = "Страница %ld из %ld";
+"SearchResult.StatusTitle" = "Текст";
+"SearchResult.StatusSearching" = "Поиск...";
+"SearchResult.StatusFormat.1" = "%ld результат";
+"SearchResult.StatusFormat.2-4" = "%ld результата";
+"SearchResult.StatusFormat.Many" = "%ld результатов";
+"SearchResult.ChapterIndexFormat" = "Глава %d.";
+"SearchResult.ChapterTitleFormat" = "%@";
+"SearchResult.PageIndexFormat" = "Стр. %d";
+"BookReader.TransitionStyle.Flipping" = "Перелистывание";
+"BookReader.TransitionStyle.Shift" = "Сдвиг";
+"ReaderSettings.Fonts.Title" = "Шрифты";
+"ReaderSettings.TransitionStyle.Title" = "Переход к следующей странице";
+"Copy" = "Скопировать";
+"Share" = "Поделиться";
+"ShareDialog.Title" = "Поделиться цитатой";
+"ShareDialog.Option.Text" = "Текст";
+"ShareDialog.Option.Image" = "Изображение";
+"ShareDialog.Option.Cancel" = "Отмена";
+"BookReader.QuoteCopied" = "Цитата скопирована в буфер обмена.";
+
+/* Sets */
+"Sets.Title" = "Подборки";
+
+/* About */
+"About.Title" = "О приложении";
+"About.Text" = "Приложение Vedareader - это удобный способ читать духовную литературу и прослушивать аудио-версии книг на iPhone или iPad. Теперь все книги собраны в одном месте, классифицированы и упорядочены.\n\nЭто первое в мире собрание редчайшего наследия великих Учителей вайшнавской традиции с возможностью выбора русских и английских версий. А также включает в себя оригиналы на Санскрите и Бенгали.\n\nПланируется постоянное обновление и пополнение библиотеки статьями, книгами и журналами в ближайшем будущем.";

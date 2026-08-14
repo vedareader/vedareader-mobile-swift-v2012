@@ -1,0 +1,21 @@
+//
+//  HolyBooks-Prefix.pch
+//  HolyBooks
+//
+//  Created by Roman Developer on 9/17/15.
+//  Copyright (c) 2015 Iron Water Studio. All rights reserved.
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iOS SDK 3.0 and later."
+#endif
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import "Macros.h"
+#import "Constants.h"
+#import "GAHelper.h"
+#endif

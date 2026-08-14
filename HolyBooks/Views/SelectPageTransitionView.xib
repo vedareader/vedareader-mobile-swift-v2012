@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="SelectPageTransitionView">
+            <rect key="frame" x="0.0" y="0.0" width="525" height="40"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ETc-eA-kD9">
+                    <rect key="frame" x="0.0" y="9.5" width="42" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="check.png" translatesAutoresizingMaskIntoConstraints="NO" id="MpD-H8-pDe">
+                    <rect key="frame" x="485" y="0.0" width="40" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="40" id="cHa-tn-zpU"/>
+                        <constraint firstAttribute="height" constant="40" id="mZZ-ZZ-ndb"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="divider.png" translatesAutoresizingMaskIntoConstraints="NO" id="rGs-au-ga2">
+                    <rect key="frame" x="0.0" y="39" width="525" height="1"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="1" id="Ra9-iF-U05"/>
+                    </constraints>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="23G-1y-oJk">
+                    <rect key="frame" x="0.0" y="0.0" width="525" height="40"/>
+                    <connections>
+                        <action selector="btnChangeStatus_Click:" destination="iN0-l3-epB" eventType="touchUpInside" id="5JT-Ju-Hmq"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="rGs-au-ga2" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" placeholder="YES" id="3Mr-m4-zJ5"/>
+                <constraint firstItem="23G-1y-oJk" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="5hI-9Q-4NC"/>
+                <constraint firstAttribute="bottom" secondItem="23G-1y-oJk" secondAttribute="bottom" id="8RR-0r-W4i"/>
+                <constraint firstItem="23G-1y-oJk" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="9qb-x6-Gan"/>
+                <constraint firstItem="MpD-H8-pDe" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" placeholder="YES" id="Jid-sE-DCH"/>
+                <constraint firstAttribute="trailing" secondItem="MpD-H8-pDe" secondAttribute="trailing" placeholder="YES" id="Mns-yA-WV1"/>
+                <constraint firstItem="ETc-eA-kD9" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" placeholder="YES" id="T9W-HJ-uhl"/>
+                <constraint firstItem="ETc-eA-kD9" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" placeholder="YES" id="XyX-HR-dqp"/>
+                <constraint firstAttribute="trailing" secondItem="23G-1y-oJk" secondAttribute="trailing" id="YXg-OT-AgV"/>
+                <constraint firstAttribute="bottom" secondItem="rGs-au-ga2" secondAttribute="bottom" placeholder="YES" id="jzd-Q6-hY0"/>
+                <constraint firstAttribute="trailing" secondItem="rGs-au-ga2" secondAttribute="trailing" placeholder="YES" id="xAt-fG-pCJ"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="imgDivider" destination="rGs-au-ga2" id="v45-us-zS7"/>
+                <outlet property="imgStatus" destination="MpD-H8-pDe" id="Dof-Yt-nDI"/>
+                <outlet property="lblTransitionName" destination="ETc-eA-kD9" id="8o3-LY-xzh"/>
+            </connections>
+            <point key="canvasLocation" x="24.5" y="52.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="check.png" width="13" height="11"/>
+        <image name="divider.png" width="1" height="1"/>
+    </resources>
+</document>

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="VerticalBookListCollectionViewCell" id="gTV-IL-0wX" customClass="VerticalBookListCollectionViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="360" height="155"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="360" height="155"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Gvf-gn-IzU">
+                        <rect key="frame" x="32" y="15" width="84" height="125"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="84" placeholder="YES" id="SMV-v1-KU7"/>
+                        </constraints>
+                    </imageView>
+                    <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" reversesTitleShadowWhenHighlighted="YES" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Pb-Od-Lqb" customClass="IWSProgressButton">
+                        <rect key="frame" x="131" y="117" width="81" height="23"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="81" placeholder="YES" id="Mpg-zc-Iiq"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <inset key="contentEdgeInsets" minX="10" minY="0.0" maxX="10" maxY="0.0"/>
+                        <state key="normal" title="СКАЧАТЬ">
+                            <color key="titleColor" red="0.0" green="0.40000000000000002" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </state>
+                        <connections>
+                            <action selector="btnDownload_Click:" destination="gTV-IL-0wX" eventType="touchUpInside" id="3q1-48-tS2"/>
+                        </connections>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="749" verticalCompressionResistancePriority="749" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BuL-aY-p54">
+                        <rect key="frame" x="131" y="22" width="221" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" placeholder="YES" id="F29-zF-Wsb"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="14"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ilQ-x7-0ju">
+                        <rect key="frame" x="131" y="44" width="221" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" placeholder="YES" id="Zjn-4c-NMe"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" red="0.61176470588235299" green="0.61176470588235299" blue="0.61176470588235299" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="divider.png" translatesAutoresizingMaskIntoConstraints="NO" id="GFU-9D-cpi">
+                        <rect key="frame" x="0.0" y="154" width="360" height="1"/>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="divider_vertical.png" translatesAutoresizingMaskIntoConstraints="NO" id="2Wn-XG-jH7">
+                        <rect key="frame" x="359" y="0.0" width="1" height="155"/>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                    </imageView>
+                    <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" reversesTitleShadowWhenHighlighted="YES" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZEC-rc-Aii" customClass="IWSProgressButton">
+                        <rect key="frame" x="131" y="87" width="126" height="23"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="126" placeholder="YES" id="MhA-5N-v1X"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <inset key="contentEdgeInsets" minX="10" minY="0.0" maxX="10" maxY="0.0"/>
+                        <state key="normal" title="СКАЧАТЬ С АУДИО">
+                            <color key="titleColor" red="0.0" green="0.40000000000000002" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </state>
+                        <connections>
+                            <action selector="btnDownloadWithAudio_Click:" destination="gTV-IL-0wX" eventType="touchUpInside" id="FU3-CG-gBg"/>
+                        </connections>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gNQ-ei-sB9">
+                        <rect key="frame" x="319" y="0.0" width="41" height="41"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="41" placeholder="YES" id="8Uh-5u-0Sx"/>
+                        </constraints>
+                        <state key="normal" image="icon_cancel_blue.png"/>
+                        <connections>
+                            <action selector="btnDelete_Click:" destination="gTV-IL-0wX" eventType="touchUpInside" id="wX4-Vd-otC"/>
+                        </connections>
+                    </button>
+                </subviews>
+            </view>
+            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="Gvf-gn-IzU" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="32" placeholder="YES" id="38V-7Y-7Ie"/>
+                <constraint firstItem="ilQ-x7-0ju" firstAttribute="trailing" secondItem="gTV-IL-0wX" secondAttribute="trailingMargin" placeholder="YES" id="3WL-Wu-FDn"/>
+                <constraint firstItem="GFU-9D-cpi" firstAttribute="top" secondItem="7Pb-Od-Lqb" secondAttribute="bottom" constant="14" placeholder="YES" id="8K0-GU-f69"/>
+                <constraint firstItem="ZEC-rc-Aii" firstAttribute="top" secondItem="ilQ-x7-0ju" secondAttribute="bottom" constant="22" placeholder="YES" id="9OM-qy-hRU"/>
+                <constraint firstAttribute="trailing" secondItem="GFU-9D-cpi" secondAttribute="trailing" placeholder="YES" id="AUM-kT-Pab"/>
+                <constraint firstItem="2Wn-XG-jH7" firstAttribute="trailing" secondItem="GFU-9D-cpi" secondAttribute="trailing" placeholder="YES" id="Agx-CZ-XiP"/>
+                <constraint firstItem="7Pb-Od-Lqb" firstAttribute="leading" secondItem="ilQ-x7-0ju" secondAttribute="leading" placeholder="YES" id="Bp0-2k-ggc"/>
+                <constraint firstItem="2Wn-XG-jH7" firstAttribute="leading" secondItem="ilQ-x7-0ju" secondAttribute="trailing" constant="7" placeholder="YES" id="Ddf-Sj-dJK"/>
+                <constraint firstItem="BuL-aY-p54" firstAttribute="leading" secondItem="Gvf-gn-IzU" secondAttribute="trailing" constant="15" placeholder="YES" id="JP2-Hp-AD0"/>
+                <constraint firstItem="GFU-9D-cpi" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" placeholder="YES" id="L7k-Ks-zaQ"/>
+                <constraint firstItem="BuL-aY-p54" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="22" placeholder="YES" id="La2-9k-n4x"/>
+                <constraint firstItem="7Pb-Od-Lqb" firstAttribute="bottom" secondItem="Gvf-gn-IzU" secondAttribute="bottom" placeholder="YES" id="M0I-Eb-3Cy"/>
+                <constraint firstItem="BuL-aY-p54" firstAttribute="trailing" secondItem="ilQ-x7-0ju" secondAttribute="trailing" placeholder="YES" id="M4G-14-zWw"/>
+                <constraint firstItem="7Pb-Od-Lqb" firstAttribute="top" secondItem="ZEC-rc-Aii" secondAttribute="bottom" constant="7" placeholder="YES" id="Q1R-2r-Cyo"/>
+                <constraint firstItem="7Pb-Od-Lqb" firstAttribute="top" secondItem="ilQ-x7-0ju" secondAttribute="bottom" constant="52" placeholder="YES" id="RyM-wu-PUO"/>
+                <constraint firstItem="ilQ-x7-0ju" firstAttribute="top" secondItem="gNQ-ei-sB9" secondAttribute="bottom" constant="3" placeholder="YES" id="TsQ-hv-qgN"/>
+                <constraint firstAttribute="bottom" secondItem="GFU-9D-cpi" secondAttribute="bottom" placeholder="YES" id="Voy-Pu-yqC"/>
+                <constraint firstItem="gNQ-ei-sB9" firstAttribute="trailing" secondItem="2Wn-XG-jH7" secondAttribute="trailing" placeholder="YES" id="Wkc-EB-oPm"/>
+                <constraint firstItem="Gvf-gn-IzU" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="15" placeholder="YES" id="ZYo-rr-Bss"/>
+                <constraint firstItem="2Wn-XG-jH7" firstAttribute="centerY" secondItem="Gvf-gn-IzU" secondAttribute="centerY" placeholder="YES" id="Zz7-Tz-Z0W"/>
+                <constraint firstItem="2Wn-XG-jH7" firstAttribute="bottom" secondItem="GFU-9D-cpi" secondAttribute="bottom" placeholder="YES" id="cuo-WJ-11T"/>
+                <constraint firstItem="Gvf-gn-IzU" firstAttribute="centerY" secondItem="gTV-IL-0wX" secondAttribute="centerY" placeholder="YES" id="eOs-5E-4IG"/>
+                <constraint firstItem="ilQ-x7-0ju" firstAttribute="leading" secondItem="BuL-aY-p54" secondAttribute="leading" placeholder="YES" id="fxh-80-ssi"/>
+                <constraint firstItem="ZEC-rc-Aii" firstAttribute="leading" secondItem="7Pb-Od-Lqb" secondAttribute="leading" placeholder="YES" id="fzu-gn-5Q9"/>
+                <constraint firstItem="ilQ-x7-0ju" firstAttribute="top" secondItem="BuL-aY-p54" secondAttribute="bottom" constant="1" placeholder="YES" id="mLj-43-Zeo"/>
+                <constraint firstItem="gNQ-ei-sB9" firstAttribute="top" secondItem="2Wn-XG-jH7" secondAttribute="top" placeholder="YES" id="q1p-iw-xsc"/>
+            </constraints>
+            <size key="customSize" width="50" height="93"/>
+            <connections>
+                <outlet property="btnDelete" destination="gNQ-ei-sB9" id="YH7-yS-wcG"/>
+                <outlet property="btnDownload" destination="7Pb-Od-Lqb" id="L64-Kj-OrA"/>
+                <outlet property="btnDownloadWithAudio" destination="ZEC-rc-Aii" id="ALk-of-ksd"/>
+                <outlet property="imgBookCover" destination="Gvf-gn-IzU" id="EEl-E2-P5e"/>
+                <outlet property="imgDividerHorizontal" destination="GFU-9D-cpi" id="ViE-Uu-vDx"/>
+                <outlet property="imgDividerVertical" destination="2Wn-XG-jH7" id="axr-wm-du7"/>
+                <outlet property="lblBookAuthor" destination="ilQ-x7-0ju" id="0Wf-jf-TZI"/>
+                <outlet property="lblBookName" destination="BuL-aY-p54" id="jzi-5F-Yyu"/>
+            </connections>
+            <point key="canvasLocation" x="290" y="287.5"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="divider.png" width="1" height="1"/>
+        <image name="divider_vertical.png" width="2" height="2"/>
+        <image name="icon_cancel_blue.png" width="17" height="17"/>
+    </resources>
+</document>
